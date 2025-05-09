@@ -8,21 +8,29 @@ import saveLinksImage from '../../../../assets/save-links-white.png'
 import aocImage from '../../../../assets/advent-of-code.jpeg'
 import forksimImage from '../../../../assets/forksim.png'
 import virtualPetImage from '../../../../assets/virtual-pet.png'
+import safeEatImage from '../../../../assets/safe-eat.png'
 
 export default function SectionProjects() {
   return (
     <Section className="py-5 md:py-10" id="projects">
       <Section.Title title="Projects" />
       <Section.Content className="flex flex-wrap justify-evenly gap-6">
-        <Project name="Projetos Rocketseat" image={rocketseatImage} link="https://github.com/danielbom/rocketseat">
-          Uma coleção de projetos criados durante a Next Level Week da Rocketseat, explorando desde frontends web com
-          React e Next.js, até aplicações móveis com React Native e Flutter, além de backends desenvolvidos com
-          Express.js e Elixir.
+        <Project name="Safe Eat" image={safeEatImage} link="https://github.com/danielbom/safe-eat">
+          Este projeto é dividido em três partes: um frontend móvel desenvolvido em Kotlin para os clientes, um backend
+          utilizando Java Spring, e um frontend web voltado para os restaurantes. A ideia é criar um aplicativo de
+          delivery que permita aos usuários informar suas alergias ou restrições alimentares, possibilitando verificar
+          se um produto é seguro para consumo. O objetivo é oferecer uma experiência personalizada e segura para pessoas
+          com necessidades alimentares específicas, promovendo inclusão e acessibilidade.
         </Project>
         <Project name="Green Life" image={greenLifeImage} link="https://github.com/danielbom/green-life">
           Desenvolvido em grupo durante a faculdade, este projeto utilizou FastAPI no backend e MongoDB como banco de
           dados. O frontend foi criado com React.js, Typescript e Material-UI, resultando em uma aplicação funcional e
           escalável. O objetivo foi aplicar boas práticas de desenvolvimento e integração entre frontend e backend.
+        </Project>
+        <Project name="Projetos Rocketseat" image={rocketseatImage} link="https://github.com/danielbom/rocketseat">
+          Uma coleção de projetos criados durante a Next Level Week da Rocketseat, explorando desde frontends web com
+          React e Next.js, até aplicações móveis com React Native e Flutter, além de backends desenvolvidos com
+          Express.js e Elixir.
         </Project>
         <Project name="Surf API" image={surfApiImage} link="https://github.com/danielbom/api-of-rating-beaches-to-surf">
           Este projeto é uma adaptação do trabalho de{' '}
