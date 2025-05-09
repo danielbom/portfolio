@@ -24,9 +24,9 @@ export default function SectionHeader() {
             Contatos
           </Link>
         </li>
-        <li className="text-blue-400 px-3 border border-blue-400 hover:bg-blue-400 hover:text-white transition transition-1s">
+        {/* <li className="text-blue-400 px-3 border border-blue-400 hover:bg-blue-400 hover:text-white transition transition-1s">
           <a href="#">Blog</a>
-        </li>
+        </li> */}
         <li className="flex items-center">
           <a href="#" aria-label="Change Language">
             <Globe absoluteStrokeWidth />
@@ -75,9 +75,9 @@ function LinksDropdown({ isOpen, onClick }: LinksDropdownProps) {
           Contatos
         </Link>
       </li>
-      <li className="text-blue-400 px-3 border border-blue-400 hover:bg-blue-400 hover:text-white transition">
+      {/* <li className="text-blue-400 px-3 border border-blue-400 hover:bg-blue-400 hover:text-white transition">
         <a href="#">Blog</a>
-      </li>
+      </li> */}
       <li className="flex items-center justify-center">
         <a href="#" aria-label="Change Language" onClick={onClick}>
           <Globe absoluteStrokeWidth />
