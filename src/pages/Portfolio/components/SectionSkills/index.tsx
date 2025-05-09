@@ -1,3 +1,7 @@
+import { useTranslation } from 'react-i18next'
+
+import Skill from './Skill'
+
 // https://github.com/bablubambal/All_logo_and_pictures/tree/main
 // https://techicons.dev/icons/fastapi
 import Section from '../../../../components/Section'
@@ -25,12 +29,12 @@ import mongodbSvg from '../../../../assets/mongodb.svg'
 import redisSvg from '../../../../assets/redis.svg'
 // others
 import kubernetes from '../../../../assets/Kubernetes.svg'
-import Skill from './Skill'
 
 export default function SectionSkills() {
+  const { t } = useTranslation()
   return (
     <Section>
-      <Section.Title title="Habilidades" />
+      <Section.Title title={t("skills.title")} />
       <Section.Content>
         <ul className="flex flex-wrap gap-4 py-10 items-center justify-center max-w-[800px] mx-auto">
           <Skill src={htmlSvg} alt="HTML" />

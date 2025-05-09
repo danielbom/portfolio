@@ -1,0 +1,72 @@
+{
+  "header": {
+    "about": "Sobre",
+    "projects": "Projetos",
+    "contacts": "Contatos"
+  },
+  "hero": {
+    "hello": "Olá, meu nome é Daniel Farina, e eu sou um programador!",
+    "description": "Desenvolvo APIs e páginas web com as ferramentas mais populares do mercado.",
+    "hire-me": "Me contrate"
+  },
+  "about": {
+    "title": "Sobre",
+    "utfpr": {
+      "1": "Meu nome é <2>Daniel Farina</2>. Nasci no estado de São Paulo em 1998 ({{age}}) e me formei como <2>Bacharel em Ciências da Computação</2> pela <2>Universidade Tecnológica Federal do Paraná</2> (UTFPR – Campus Campo Mourão, Brasil) em 2024, com dupla diplomação como <2>Mestre em Informática</2> pelo<2>Instituto Politécnico de Bragança</2> (IPB – Portugal).",
+      "2": "Durante a graduação, estudei estruturas de dados básicas (listas, pilhas, filas) e avançadas (grafos, árvores de busca). Também tive aulas de Inteligência Artificial, Sistemas Distribuídos, Compiladores, Visualização de Dados, entre outras disciplinas que me marcaram.",
+      "3": "Atuei como <2>monitor</2> na disciplina de Cálculo Numérico e como <2>instrutor auxiliar</2> em Redes de Computadores para alunos do ensino médio. Aproveitei todos os eventos acadêmicos especialmente os minicursos e palestras da <2>Semana de Informática</2> (SEINFO)."
+    },
+    "atla": {
+      "1": "Fui estagiário na start-up <2>ATLA Ensino</2> em Campo Mourão, onde aprendi os fundamentos de aplicações web: funcionamento de servidores (backend/API) e desenvolvimento de aplicações web e móveis (frontend) utilizando <2>Angular 2</2>, <2>Ionic</2> e <2>Node.js</2>.",
+      "2": "Durante a implantação do sistema nas escolas de Campo Mourão, toda a equipe realizava visitas de suporte, auxiliando na instalação da aplicação nos celulares dos professores e ouvindo sugestões para melhorias e correções no sistema.",
+      "3": "Posteriormente, passei a ser responsável pela geração de relatórios, realizando agregações em um banco de dados <2>MongoDB</2> e renderizando os resultados com a biblioteca <2>PDF.js</2> no frontend."
+    },
+    "viptech": {
+      "1": "Antes de viajar para Portugal, fui contratado pela <2>Viptech</2>, também em Campo Mourão, onde tive contato com novas tecnologias, como implantação automatizada com <2>Azure DevOps Actions</2> e gerenciamento de microserviços usando <2>Kubernetes</2>. Tive meu primeiro contato profissional com o banco de dados relacional <2>MySQL</2> e, para a comunicação entre microserviços, utilizávamos o banco de dados em memória <2>Redis</2>.",
+      "2": "Trabalhei com <2>NestJS</2>, <2>FastAPI</2> e <2>React.js</2> no desenvolvimento de aplicações internas, além de utilizar <2>.NET</2> e <2>Angular 2</2> em projetos terceirizados. Nesse projeto, o banco de dados utilizado era o <2>Oracle</2>, com diversas triggers configuradas para garantir a consistência dos dados."
+    },
+    "ipb": {
+      "1": "Em Bragança, Portugal, pude consolidar e aprofundar meus conhecimentos. Em equipe, desenvolvi uma aplicação móvel em <b>Kotlin</b> conectada a um servidor remoto (API), como projeto da disciplina de <b>Desenvolvimento Móvel</b>.",
+      "2": "Na disciplina de <b>Arquitetura de Software</b>, participei da construção de uma aplicação web voltada para a comunidade local. Também cursei <b>Engenharia de Processos de Negócio</b> e <b>Qualidade em Sistemas de Software</b>, onde aprendi sobre gestão de processos de negócios (BPM) e práticas de análise e identificação de erros."
+    }
+  },
+  "skills": {
+    "title": "Habilidades"
+  },
+  "projects": {
+    "title": "Projetos",
+    "safe-eat": {
+      "description": "Este projeto é dividido em três partes: um frontend móvel desenvolvido em Kotlin para os clientes, um backend utilizando Java Spring, e um frontend web voltado para os restaurantes. A ideia é criar um aplicativo de delivery que permita aos usuários informar suas alergias ou restrições alimentares, possibilitando verificar se um produto é seguro para consumo. O objetivo é oferecer uma experiência personalizada e segura para pessoas com necessidades alimentares específicas, promovendo inclusão e acessibilidade."
+    },
+    "green-life": {
+      "description": "Desenvolvido em grupo durante a faculdade, este projeto utilizou FastAPI no backend e MongoDB como banco de dados. O frontend foi criado com React.js, Typescript e Material-UI, resultando em uma aplicação funcional e escalável. O objetivo foi aplicar boas práticas de desenvolvimento e integração entre frontend e backend."
+    },
+    "rocketseat": {
+      "title": "Projetos Rocketseat",
+      "description": "Uma coleção de projetos criados durante a Next Level Week da Rocketseat, explorando desde frontends web com React e Next.js, até aplicações móveis com React Native e Flutter, além de backends desenvolvidos com Express.js e Elixir."
+    },
+    "surf-api": {
+      "description": "Este projeto é uma adaptação do trabalho de <1>Waldemar Neto</1>, inspirado em sua <2>playlist no YouTube</2>. O projeto inclui mudanças e padronizações pessoais descritas no README. Ele realiza chamadas a APIs externas para obter informações sobre o vento, como direção e intensidade, e sobre as praias, como orientação em relação ao mar. Com esses dados, é possível calcular as melhores praias para surfar."
+    },
+    "save-links": {
+      "description": "Um agregador de links desenvolvido com diversas tecnologias ao longo do tempo. Começou com JS, CSS e HTML, passou por uma refinação arquitetural e explorou frameworks como ELM, Vue.js, Mythril e, atualmente, React.js. O que começou como um projeto paralelo despretensioso se transformou em uma jornada enriquecedora por diferentes ferramentas e frameworks, resultando em um aplicativo simples, mas significativo, que acompanhou várias etapas da minha evolução como programador."
+    },
+    "aoc": {
+      "description": "Este repositório reúne minhas soluções para os desafios do Advent of Code, com os desafios de 2015 resolvidos em Rust e os de 2016 em Go. Meu objetivo é explorar os desafios dos outros anos utilizando diferentes linguagens, aprimorando minhas habilidades e aprendendo novos conceitos ao longo do caminho."
+    },
+    "forksim": {
+      "description": "Projeto final de Graduação/Mestrado, Forksim é uma plataforma desenvolvida para executar e visualizar códigos em C com chamadas fork. Sua implementação envolveu conceitos avançados de preprocessamento de linguagens de programação e programação concorrente em sistemas Unix. O projeto utilizou ferramentas como React.js, FastAPI, tree-sitter e Docker Compose, sendo implementado nos servidores da universidade."
+    },
+    "virtual-pet": {
+      "description": "Desenvolvido para a disciplina de Linguagens de Programação na UTFPR, este projeto utilizou LUA e o framework LOVE para criar um jogo estilo Tamagotchi. Foi um desafio, especialmente para muitos alunos que estavam tendo sua primeira experiência com desenvolvimento de jogos. Apesar de alguns bugs e lógicas curiosas, alcançamos nosso objetivo: um jogo com funcionalidades como comer, beber, estudar, curar, dormir e até acariciar nosso pet, o Togepi do Pokémon, que exibe uma animação adorável. O jogo também inclui um minigame de jogo da velha integrado."
+    }
+  },
+  "contacts": {
+    "title": "Entre em Contato"
+  },
+  "social-medias": {
+    "title": "Minhas redes sociais",
+    "download-resume": "Baixe meu currículo",
+    "access-repository": "Acesse o repositório desta página no GitHub"
+  }
+}
