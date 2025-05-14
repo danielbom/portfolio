@@ -18,7 +18,7 @@ function AboutImage({ link, ...props }: AboutImageProps) {
         <a href={link} target="_blank" rel="noopener noreferrer">
           <img
             {...props}
-            className="rounded-lg hover:scale-[1.5] lg:hover:-translate-x-[25%] group-odd:lg:hover:translate-x-[25%] lg:hover:translate-y-[25%] transition duration-1s"
+            className="rounded-lg hover:scale-[1.5] lg:hover:-translate-x-[25%] group-odd:lg:hover:translate-x-[25%] lg:hover:translate-y-[25%] transition"
           />
         </a>
       </div>

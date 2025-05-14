@@ -16,7 +16,7 @@ export default function SectionHero() {
             smooth
             duration={1000}
             as="button"
-            className="rounded-sm bg-blue-400 text-white px-4 py-2 text-xl cursor-pointer hover:bg-blue-500 transition duration-1s"
+            className="rounded-sm bg-blue-400 text-white px-4 py-2 text-xl cursor-pointer hover:bg-blue-500 transition-colors"
           >
             {t('hero.hire-me')}
           </Link>

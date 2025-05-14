@@ -23,7 +23,7 @@ export default function ContactMeForm() {
         {(className) => <textarea name="message" placeholder="Deixe uma mensagem" className={className} rows={4} />}
       </Input>
       <button
-        className="bg-blue-400 text-white font-bold py-2 px-4 active:outline outline-2 outline-blue-400 hover:bg-blue-500 transition duration-1s"
+        className="bg-blue-400 text-white font-bold py-2 px-4 active:outline outline-2 outline-blue-400 hover:bg-blue-500 transition-colors"
         type="submit"
       >
         Enviar
