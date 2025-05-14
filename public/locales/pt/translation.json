@@ -12,7 +12,7 @@
   "about": {
     "title": "Sobre",
     "utfpr": {
-      "1": "Meu nome é <2>Daniel Farina</2>. Nasci no estado de São Paulo em 1998 ({{age}}) e me formei como <2>Bacharel em Ciências da Computação</2> pela <2>Universidade Tecnológica Federal do Paraná</2> (UTFPR – Campus Campo Mourão, Brasil) em 2024, com dupla diplomação como <2>Mestre em Informática</2> pelo<2>Instituto Politécnico de Bragança</2> (IPB – Portugal).",
+      "1": "Meu nome é <2>Daniel Farina</2>. Nasci no estado de São Paulo em 1998 ({{age}}) e me formei como <2>Bacharel em Ciências da Computação</2> pela <2>Universidade Tecnológica Federal do Paraná</2> (UTFPR – Campus Campo Mourão, Brasil) em 2024, com dupla diplomação como <2>Mestre em Informática</2> pelo<2> Instituto Politécnico de Bragança</2> (IPB – Portugal).",
       "2": "Durante a graduação, estudei estruturas de dados básicas (listas, pilhas, filas) e avançadas (grafos, árvores de busca). Também tive aulas de Inteligência Artificial, Sistemas Distribuídos, Compiladores, Visualização de Dados, entre outras disciplinas que me marcaram.",
       "3": "Atuei como <2>monitor</2> na disciplina de Cálculo Numérico e como <2>instrutor auxiliar</2> em Redes de Computadores para alunos do ensino médio. Aproveitei todos os eventos acadêmicos especialmente os minicursos e palestras da <2>Semana de Informática</2> (SEINFO)."
     },
@@ -26,8 +26,8 @@
       "2": "Trabalhei com <2>NestJS</2>, <2>FastAPI</2> e <2>React.js</2> no desenvolvimento de aplicações internas, além de utilizar <2>.NET</2> e <2>Angular 2</2> em projetos terceirizados. Nesse projeto, o banco de dados utilizado era o <2>Oracle</2>, com diversas triggers configuradas para garantir a consistência dos dados."
     },
     "ipb": {
-      "1": "Em Bragança, Portugal, pude consolidar e aprofundar meus conhecimentos. Em equipe, desenvolvi uma aplicação móvel em <b>Kotlin</b> conectada a um servidor remoto (API), como projeto da disciplina de <b>Desenvolvimento Móvel</b>.",
-      "2": "Na disciplina de <b>Arquitetura de Software</b>, participei da construção de uma aplicação web voltada para a comunidade local. Também cursei <b>Engenharia de Processos de Negócio</b> e <b>Qualidade em Sistemas de Software</b>, onde aprendi sobre gestão de processos de negócios (BPM) e práticas de análise e identificação de erros."
+      "1": "Em Bragança, Portugal, pude consolidar e aprofundar meus conhecimentos. Em equipe, desenvolvi uma aplicação móvel em <2>Kotlin</2> conectada a um servidor remoto (API), como projeto da disciplina de <2>Desenvolvimento Móvel</2>.",
+      "2": "Na disciplina de <2>Arquitetura de Software</2>, participei da construção de uma aplicação web voltada para a comunidade local. Também cursei <2>Engenharia de Processos de Negócio</2> e <2>Qualidade em Sistemas de Software</2>, onde aprendi sobre gestão de processos de negócios (BPM) e práticas de análise e identificação de erros."
     }
   },
   "skills": {
