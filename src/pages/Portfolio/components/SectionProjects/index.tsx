@@ -45,13 +45,13 @@ export default function SectionProjects() {
             components={[
               <></>,
               <a
-                className="text-blue-400"
+                className="text-blue-600 underline active:text-blue-800 focus:text-blue-800"
                 href="https://github.com/waldemarnt/node-typescript-api/"
                 target="_blank"
                 rel="noopener noreferrer"
               />,
               <a
-                className="text-blue-400"
+                className="text-blue-600 underline active:text-blue-800 focus:text-blue-800"
                 href="https://www.youtube.com/watch?v=W2ld5xRS3cY&list=PLz_YTBuxtxt6_Zf1h-qzNsvVt46H8ziKh"
                 target="_blank"
                 rel="noopener noreferrer"
