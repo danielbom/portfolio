@@ -67,6 +67,7 @@
   "social-medias": {
     "title": "My social medias",
     "download-resume": "Download my resume",
-    "access-repository": "Access this page's repository on GitHub"
+    "access-repository": "Access this page's repository on GitHub",
+    "resume-url": "https://github.com/danielbom/resume-generator/blob/main/data/resume-en.pdf"
   }
 }

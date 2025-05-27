@@ -67,6 +67,7 @@
   "social-medias": {
     "title": "Minhas redes sociais",
     "download-resume": "Baixe meu currículo",
-    "access-repository": "Acesse o repositório desta página no GitHub"
+    "access-repository": "Acesse o repositório desta página no GitHub",
+    "resume-url": "https://github.com/danielbom/resume-generator/blob/main/data/resume-pt.pdf"
   }
 }

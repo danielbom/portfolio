@@ -20,7 +20,7 @@ export default function SocialMidias() {
           <FacebookIcon />
         </a>
       </div>
-      <a className="text-blue-200 hover:underline text-xl" href="/resume-br.pdf" target="_blank">
+      <a className="text-blue-200 hover:underline text-xl" href={t('social-medias.resume-url')} target="_blank">
         {t('social-medias.download-resume')}
       </a>
       <a className="text-blue-200 hover:underline" href="https://github.com/danielbom/portfolio" target="_blank">
