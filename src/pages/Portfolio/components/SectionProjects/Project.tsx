@@ -28,7 +28,7 @@ export default function Project({ name, image, link, description, children }: Pr
       </div>
       <div className="relative p-4">
         <p className="invisible group-hover:visible opacity-0 group-hover:opacity-100 absolute group-hover:block w-full bg-gray-300 p-4 top-0 right-0 p-4 rounded-lg transition-opacity duration-300">{description}</p>
-        <p className="line-clamp-none md:line-clamp-2 overflow-hidden">{description}</p>
+        <p className="line-clamp-none lg:line-clamp-2 overflow-hidden">{description}</p>
       </div>
     </div>
   )
