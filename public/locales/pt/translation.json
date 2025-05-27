@@ -41,6 +41,10 @@
     "green-life": {
       "description": "Desenvolvido em grupo durante a faculdade, este projeto utilizou FastAPI no backend e MongoDB como banco de dados. O frontend foi criado com React.js, Typescript e Material-UI, resultando em uma aplicação funcional e escalável. O objetivo foi aplicar boas práticas de desenvolvimento e integração entre frontend e backend."
     },
+    "resume-generator": {
+      "title": "Gerador de curriculos",
+      "description": "Este projeto é uma ferramenta de linha de comando em Python que cria currículos limpos e multilíngues em formato PDF. Desenvolvido para resolver problemas encontrados em outras ferramentas, como quebras de página, suporte a vários idiomas e manter um layout consistente. A partir dos dados do currículo em um arquivo JSON, e a ferramenta gera PDFs personalizados, com opções para definir cores e títulos específicos para cada vaga. É voltado principalmente para pessoas que têm familiaridade com o terminal, mas pode ser expandido para um uso mais amplo."
+    },
     "rocketseat": {
       "title": "Projetos Rocketseat",
       "description": "Uma coleção de projetos criados durante a Next Level Week da Rocketseat, explorando desde frontends web com React e Next.js, até aplicações móveis com React Native e Flutter, além de backends desenvolvidos com Express.js e Elixir."

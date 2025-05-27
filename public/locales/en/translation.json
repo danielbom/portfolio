@@ -45,6 +45,10 @@
       "title": "Rocketseat Projects",
       "description": "A collection of projects created during Rocketseat's Next Level Week, exploring everything from web frontends with React and Next.js to mobile applications with React Native and Flutter, as well as backends developed with Express.js and Elixir."
     },
+    "resume-generator": {
+      "title": "Resume Generator",
+      "description": "This project is a Python command-line tool that creates clean, multilingual resumes in PDF format. It was developed to solve problems found in other tools, such as page breaks, multilingual support, and maintaining a consistent layout. Using resume data from a JSON file, the tool generates customized PDFs with options to set colors and job-specific titles. It's mainly aimed at people familiar with the terminal but can be expanded for broader use."
+    },
     "surf-api": {
       "description": "This project is an adaptation of <1>Waldemar Neto</1>'s work, inspired by his <2>YouTube playlist</2>. The project includes personal changes and standardizations described in the README. It makes external API calls to obtain information about the wind, such as direction and intensity, and about beaches, such as orientation relative to the sea. With this data, it is possible to calculate the best beaches for surfing."
     },

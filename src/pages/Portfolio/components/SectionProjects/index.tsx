@@ -4,6 +4,7 @@ import Section from '../../../../components/Section'
 import Project from './Project'
 
 import rocketseatImage from '../../../../assets/rocketseat-logo.png'
+import resumeGeneratorImage from '../../../../assets/resume-generator.png'
 import greenLifeImage from '../../../../assets/green-life.png'
 import surfApiImage from '../../../../assets/surf-api.png'
 import saveLinksImage from '../../../../assets/save-links-white.png'
@@ -18,6 +19,13 @@ export default function SectionProjects() {
     <Section className="py-5 md:py-10" id="projects">
       <Section.Title title={t('projects.title')} />
       <Section.Content className="flex flex-wrap justify-evenly gap-6">
+        <Project
+          name={t("projects.resume-generator.title")}
+          image={resumeGeneratorImage}
+          link='https://github.com/danielbom/resume-generator'
+        >
+          {t('projects.resume-generator.description')}
+        </Project>
         <Project name="Safe Eat" image={safeEatImage} link="https://github.com/danielbom/safe-eat">
           {t('projects.safe-eat.description')}
         </Project>
