@@ -36,10 +36,10 @@
   "projects": {
     "title": "Projects",
     "safe-eat": {
-      "description": "This project is divided into three parts: a mobile frontend developed in Kotlin for customers, a backend using Java Spring, and a web frontend aimed at restaurants. The idea is to create a delivery app that allows users to inform their allergies or dietary restrictions, enabling them to check if a product is safe for consumption. The goal is to provide a personalized and safe experience for people with specific dietary needs, promoting inclusion and accessibility."
+      "description": "Project developed in a group at college divided into three parts: a mobile frontend developed in Kotlin for customers, a backend using Java Spring, and a web frontend aimed at restaurants. The idea is to create a delivery app that allows users to inform their allergies or dietary restrictions, enabling them to check if a product is safe for consumption. The goal is to provide a personalized and safe experience for people with specific dietary needs, promoting inclusion and accessibility."
     },
     "green-life": {
-      "description": "Developed in a group during college, this project used FastAPI on the backend and MongoDB as the database. The frontend was created with React.js, Typescript, and Material-UI, resulting in a functional and scalable application. The goal was to apply good development practices and integration between frontend and backend."
+      "description": "Developed in a group at college, this project used FastAPI on the backend and MongoDB as the database. The frontend was created with React.js, Typescript, and Material-UI, resulting in a functional and scalable application. The goal was to apply good development practices and integration between frontend and backend."
     },
     "rocketseat": {
       "title": "Rocketseat Projects",
