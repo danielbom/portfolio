@@ -1,11 +1,9 @@
 <script lang="ts">
 	// https://github.com/bablubambal/All_logo_and_pictures/tree/main
 	// https://techicons.dev/icons/fastapi
-	import { m } from '$lib/paraglide/messages';
-
-	import Skill from '../components/Skill.svelte';
-	import Section from '../components/Section.svelte';
-	import SectionTitle from '../components/SectionTitle.svelte';
+	import Skill from './Skill.svelte';
+	import Section from './Section.svelte';
+	import SectionTitle from './SectionTitle.svelte';
 
 	// frontend tech
 	import cssSvg from '$lib/images/skills/css.svg';
@@ -30,10 +28,12 @@
 	import redisSvg from '$lib/images/skills/redis.svg';
 	// others
 	import kubernetes from '$lib/images/skills/Kubernetes.svg';
+
+	const { title } = $props();
 </script>
 
 <Section>
-	<SectionTitle id="skills">{m.skills_title()}</SectionTitle>
+	<SectionTitle id="skills">{title}</SectionTitle>
 	<div>
 		<ul class="mx-auto flex max-w-[800px] flex-wrap items-center justify-center gap-4 py-10">
 			<Skill src={htmlSvg} alt="HTML" />
