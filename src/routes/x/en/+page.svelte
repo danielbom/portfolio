@@ -10,12 +10,12 @@
 	import SectionContactMe from '$lib/components/SectionContactMe.svelte';
 
 	// Projects
-	import ProjectResumeGeneratorEn from '$lib/components/projects/ProjectResumeGeneratorEn.svelte';
-	import ProjectSafeEatEn from '$lib/components/projects/ProjectSafeEatEn.svelte';
-	import ProjectRocketseatEn from '$lib/components/projects/ProjectRocketseatEn.svelte';
-	import ProjectSurfAPIEn from '$lib/components/projects/ProjectSurfAPIEn.svelte';
-	import ProjectSaveLinksEn from '$lib/components/projects/ProjectSaveLinksEn.svelte';
-	import ProjectAdventOfCodeEn from '$lib/components/projects/ProjectAdventOfCodeEn.svelte';
+	import ProjectResumeGenerator from './projects/ProjectResumeGenerator.svelte';
+	import ProjectSafeEat from './projects/ProjectSafeEat.svelte';
+	import ProjectRocketseat from './projects/ProjectRocketseat.svelte';
+	import ProjectSurfAPI from './projects/ProjectSurfAPI.svelte';
+	import ProjectSaveLinks from './projects/ProjectSaveLinks.svelte';
+	import ProjectAdventOfCode from './projects/ProjectAdventOfCode.svelte';
 </script>
 
 <div class="min-h-screen scroll-smooth bg-blue-600">
@@ -40,12 +40,12 @@
 		<SectionAbout />
 		<SectionSkills title="Skills" />
 		<SectionProjects title="Projects">
-			<ProjectResumeGeneratorEn />
-			<ProjectSafeEatEn />
-			<ProjectRocketseatEn />
-			<ProjectSurfAPIEn />
-			<ProjectSaveLinksEn />
-			<ProjectAdventOfCodeEn />
+			<ProjectResumeGenerator />
+			<ProjectSafeEat />
+			<ProjectRocketseat />
+			<ProjectSurfAPI />
+			<ProjectSaveLinks />
+			<ProjectAdventOfCode />
 		</SectionProjects>
 	</div>
 	<div class="bg-indigo-900 px-4 text-white md:px-10 md:px-30 lg:px-40 xl:px-60">

@@ -1,5 +1,5 @@
 <script lang="ts">
-	import Project from '../Project.svelte';
+	import Project from '$lib/components/Project.svelte';
 
 	import virtualPetImage from '$lib/images/projects/virtual-pet.png';
 </script>

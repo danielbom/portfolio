@@ -1,5 +1,5 @@
 <script lang="ts">
-	import Project from '../Project.svelte';
+	import Project from '$lib/components/Project.svelte';
 
 	import safeEatImage from '$lib/images/projects/safe-eat.png';
 </script>

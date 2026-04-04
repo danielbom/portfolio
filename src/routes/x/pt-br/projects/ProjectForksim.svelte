@@ -1,5 +1,5 @@
 <script lang="ts">
-	import Project from '../Project.svelte';
+	import Project from '$lib/components/Project.svelte';
 
 	import forksimImage from '$lib/images/projects/forksim.png';
 </script>
