@@ -1,6 +1,7 @@
 <script lang="ts">
 	import { page } from '$app/state';
 	import { locales, localizeHref } from '$lib/paraglide/runtime';
+	import SectionAbout from './SectionAbout.svelte';
 	import SectionHeader from './SectionHeader.svelte';
 	import SectionHero from './SectionHero.svelte';
 	import './layout.css';
@@ -17,11 +18,10 @@
 		<SectionHero />
 	</div>
 	<div class="bg-white text-black min-h-screen px-4 md:px-10 md:px-30 lg:px-40 xl:px-60 flex flex-col">
-		<div id="about">ABOUT</div>
+		<SectionAbout />
 		<div id="skills">SKILLS</div>
-		<div id="projects">PROJECTS</div>
-		<!-- <SectionAbout /> -->
 		<!-- <SectionSkills /> -->
+		<div id="projects">PROJECTS</div>
 		<!-- <SectionProjects /> -->
 	</div>
 	<div class="bg-indigo-900 text-white px-4 md:px-10 md:px-30 lg:px-40 xl:px-60">
