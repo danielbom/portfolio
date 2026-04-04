@@ -32,8 +32,8 @@
 	import kubernetes from '$lib/images/skills/Kubernetes.svg';
 </script>
 
-<Section id="skills">
-	<SectionTitle>{m.skills_title()}</SectionTitle>
+<Section>
+	<SectionTitle id="skills">{m.skills_title()}</SectionTitle>
 	<div>
 		<ul class="mx-auto flex max-w-[800px] flex-wrap items-center justify-center gap-4 py-10">
 			<Skill src={htmlSvg} alt="HTML" />

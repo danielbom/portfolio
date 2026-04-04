@@ -40,8 +40,8 @@
 	});
 </script>
 
-<Section id="about">
-	<SectionTitle>
+<Section>
+	<SectionTitle id="about">
 		{m.about_title()}
 	</SectionTitle>
 	<div>

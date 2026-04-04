@@ -1,16 +1,21 @@
 <script lang="ts">
 	import { page } from '$app/state';
-	import { locales, localizeHref } from '$lib/paraglide/runtime';
+	import { locales, localizeHref, getLocale } from '$lib/paraglide/runtime';
 	import SectionAbout from './SectionAbout.svelte';
 	import SectionContactMe from './SectionContactMe.svelte';
 	import SectionHeader from '../components/SectionHeader.svelte';
 	import SectionHero from './SectionHero.svelte';
 	import SectionSkills from './SectionSkills.svelte';
+	import SectionProjects from './SectionProjects.svelte';
 	import './layout.css';
+
+	let locale = getLocale();
+
+	$: locale = getLocale();
 </script>
 
 <svelte:head>
-	<title>Portfolio - Daniel Farina</title>
+	<title>Portfolio - Daniel Farina ({locale})</title>
 	<meta name="description" content="Portfolio - Daniel Augusto Rodrigues Farina" />
 </svelte:head>
 
@@ -22,12 +27,11 @@
 		<SectionHero />
 	</div>
 	<div
-		class="flex min-h-screen flex-col bg-white px-4 text-black md:px-10 md:px-30 lg:px-40 xl:px-60"
+		class="flex min-h-screen flex-col bg-white px-4 text-black md:px-10 md:px-30 lg:px-40 xl:px-50"
 	>
 		<SectionAbout />
 		<SectionSkills />
-		<div id="projects">PROJECTS</div>
-		<!-- <SectionProjects /> -->
+		<SectionProjects />
 	</div>
 	<div class="bg-indigo-900 px-4 text-white md:px-10 md:px-30 lg:px-40 xl:px-60">
 		<SectionContactMe />

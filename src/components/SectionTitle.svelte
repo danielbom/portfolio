@@ -1,7 +1,9 @@
 <script lang="ts">
-    let { children } = $props();
+	let { id, children } = $props();
 </script>
 
-<h1 class="font-bold text-3xl md:text-4xl pb-5 md:pb-10">
-    {@render children()}
+<h1 {id} class="pb-5 text-2xl font-bold md:pb-10 md:text-3xl">
+	<a href="#{id}">
+		{@render children()}
+	</a>
 </h1>

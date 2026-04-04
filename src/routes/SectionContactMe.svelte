@@ -7,8 +7,8 @@
 	import SocialMidias from './SocialMidias.svelte';
 </script>
 
-<Section id="contact">
-	<SectionTitle>
+<Section>
+	<SectionTitle id="contact">
         {m.contacts_title()}
     </SectionTitle>
 	<div class="flex flex-col lg:flex-row">
