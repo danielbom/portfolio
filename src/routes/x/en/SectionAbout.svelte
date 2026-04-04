@@ -1,12 +1,12 @@
 <script lang="ts">
 	import { onMount } from 'svelte';
 
-	import Section from '../../../components/Section.svelte';
-	import SectionTitle from '../../../components/SectionTitle.svelte';
+	import Section from '$lib/components/Section.svelte';
+	import SectionTitle from '$lib/components/SectionTitle.svelte';
 
-	import AboutItem from '../../../components/AboutItem.svelte';
-	import AboutImage from '../../../components/AboutImage.svelte';
-	import AboutText from '../../../components/AboutText.svelte';
+	import AboutItem from '$lib/components/AboutItem.svelte';
+	import AboutImage from '$lib/components/AboutImage.svelte';
+	import AboutText from '$lib/components/AboutText.svelte';
 
 	import utfprImage from '$lib/images/utfpr-nova-2022jpg.jpg';
 	import atlaEnsinoImage from '$lib/images/atla.jpg';

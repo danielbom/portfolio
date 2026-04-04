@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
 	import heroImage from '$lib/images/professional-programmer-working-late-dark-office.jpg';
 	const { hero_hello, hero_description, hero_hire_me } = $props();
 </script>

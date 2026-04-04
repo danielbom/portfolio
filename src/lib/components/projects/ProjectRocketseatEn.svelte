@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
 	import Project from '../Project.svelte';
 
 	import rocketseatImage from '$lib/images/projects/rocketseat-logo.png';

@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
 	import Project from '../Project.svelte';
 
 	import greenLifeImage from '$lib/images/projects/green-life.png';

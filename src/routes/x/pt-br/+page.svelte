@@ -1,21 +1,21 @@
 <script lang="ts">
 	import './page.css';
 
-	import Header from '../../../components/Header.svelte';
+	import Header from '$lib/components/Header.svelte';
 
 	import SectionAbout from './SectionAbout.svelte';
-	import SectionProjects from '../../../components/SectionProjects.svelte';
-	import SectionHero from '../../../components/SectionHero.svelte';
-	import SectionSkills from '../../../components/SectionSkills.svelte';
-	import SectionContactMe from '../../../components/SectionContactMe.svelte';
+	import SectionProjects from '$lib/components/SectionProjects.svelte';
+	import SectionHero from '$lib/components/SectionHero.svelte';
+	import SectionSkills from '$lib/components/SectionSkills.svelte';
+	import SectionContactMe from '$lib/components/SectionContactMe.svelte';
 
 	// Projects
-	import ProjectResumeGeneratorPtBr from '../../../components/projects/ProjectResumeGeneratorPtBr.svelte';
-	import ProjectSafeEatPtBr from '../../../components/projects/ProjectSafeEatPtBr.svelte';
-	import ProjectRocketseatPtBr from '../../../components/projects/ProjectRocketseatPtBr.svelte';
-	import ProjectSurfAPIPtBr from '../../../components/projects/ProjectSurfAPIPtBr.svelte';
-	import ProjectSaveLinksPtBr from '../../../components/projects/ProjectSaveLinksPtBr.svelte';
-	import ProjectAdventOfCodePtBr from '../../../components/projects/ProjectAdventOfCodePtBr.svelte';
+	import ProjectResumeGeneratorPtBr from '$lib/components/projects/ProjectResumeGeneratorPtBr.svelte';
+	import ProjectSafeEatPtBr from '$lib/components/projects/ProjectSafeEatPtBr.svelte';
+	import ProjectRocketseatPtBr from '$lib/components/projects/ProjectRocketseatPtBr.svelte';
+	import ProjectSurfAPIPtBr from '$lib/components/projects/ProjectSurfAPIPtBr.svelte';
+	import ProjectSaveLinksPtBr from '$lib/components/projects/ProjectSaveLinksPtBr.svelte';
+	import ProjectAdventOfCodePtBr from '$lib/components/projects/ProjectAdventOfCodePtBr.svelte';
 </script>
 
 <div class="min-h-screen scroll-smooth bg-blue-600">

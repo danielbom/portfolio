@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
 	import Project from '../Project.svelte';
 
 	import saveLinksImage from '$lib/images/projects/save-links-white.png';

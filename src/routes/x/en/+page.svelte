@@ -1,21 +1,21 @@
 <script lang="ts">
 	import './page.css';
 
-	import Header from '../../../components/Header.svelte';
+	import Header from '$lib/components/Header.svelte';
 
 	import SectionAbout from './SectionAbout.svelte';
-	import SectionProjects from '../../../components/SectionProjects.svelte';
-	import SectionSkills from '../../../components/SectionSkills.svelte';
-	import SectionHero from '../../../components/SectionHero.svelte';
-	import SectionContactMe from '../../../components/SectionContactMe.svelte';
+	import SectionProjects from '$lib/components/SectionProjects.svelte';
+	import SectionSkills from '$lib/components/SectionSkills.svelte';
+	import SectionHero from '$lib/components/SectionHero.svelte';
+	import SectionContactMe from '$lib/components/SectionContactMe.svelte';
 
 	// Projects
-	import ProjectResumeGeneratorEn from '../../../components/projects/ProjectResumeGeneratorEn.svelte';
-	import ProjectSafeEatEn from '../../../components/projects/ProjectSafeEatEn.svelte';
-	import ProjectRocketseatEn from '../../../components/projects/ProjectRocketseatEn.svelte';
-	import ProjectSurfAPIEn from '../../../components/projects/ProjectSurfAPIEn.svelte';
-	import ProjectSaveLinksEn from '../../../components/projects/ProjectSaveLinksEn.svelte';
-	import ProjectAdventOfCodeEn from '../../../components/projects/ProjectAdventOfCodeEn.svelte';
+	import ProjectResumeGeneratorEn from '$lib/components/projects/ProjectResumeGeneratorEn.svelte';
+	import ProjectSafeEatEn from '$lib/components/projects/ProjectSafeEatEn.svelte';
+	import ProjectRocketseatEn from '$lib/components/projects/ProjectRocketseatEn.svelte';
+	import ProjectSurfAPIEn from '$lib/components/projects/ProjectSurfAPIEn.svelte';
+	import ProjectSaveLinksEn from '$lib/components/projects/ProjectSaveLinksEn.svelte';
+	import ProjectAdventOfCodeEn from '$lib/components/projects/ProjectAdventOfCodeEn.svelte';
 </script>
 
 <div class="min-h-screen scroll-smooth bg-blue-600">

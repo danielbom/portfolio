@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
 	import Project from '../Project.svelte';
 
 	import surfApiImage from '$lib/images/projects/surf-api.png';
@@ -9,23 +9,23 @@
 	image={surfApiImage}
 	link="https://github.com/danielbom/api-of-rating-beaches-to-surf"
 >
-	This project is an adaptation of <a
+	Este projeto é uma adaptação do trabalho de <a
 		class="text-blue-600 underline focus:text-blue-800 active:text-blue-800"
 		href="https://github.com/waldemarnt/node-typescript-api/"
 		target="_blank"
 		rel="noopener noreferrer"
 	>
 		Waldemar Neto
-	</a>'s work, inspired by his
+	</a>, inspirado em sua
 	<a
 		class="text-blue-600 underline focus:text-blue-800 active:text-blue-800"
 		href="https://www.youtube.com/watch?v=W2ld5xRS3cY&list=PLz_YTBuxtxt6_Zf1h-qzNsvVt46H8ziKh"
 		target="_blank"
 		rel="noopener noreferrer"
 	>
-		YouTube playlist
-	</a>. The project includes personal changes and standardizations described in the README. It makes
-	external API calls to obtain information about the wind, such as direction and intensity, and
-	about beaches, such as orientation relative to the sea. With this data, it is possible to
-	calculate the best beaches for surfing.
+		playlist no YouTube
+	</a>. O projeto inclui mudanças e padronizações pessoais descritas no README. Ele realiza chamadas
+	a APIs externas para obter informações sobre o vento, como direção e intensidade, e sobre as
+	praias, como orientação em relação ao mar. Com esses dados, é possível calcular as melhores praias
+	para surfar.
 </Project>

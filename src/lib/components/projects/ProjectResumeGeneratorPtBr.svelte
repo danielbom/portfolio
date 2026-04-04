@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
 	import Project from '../Project.svelte';
 
 	import resumeGeneratorImage from '$lib/images/projects/resume-generator.png';
