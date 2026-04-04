@@ -6,7 +6,7 @@ const config = {
 	kit: { adapter: adapter({
 		pages: 'build',
 		assets: 'build',
-		fallback: 'index.html'
+		fallback: '200.html'
 	}) },
 	preprocess: [mdsvex({ extensions: ['.svx', '.md'] })],
 	extensions: ['.svelte', '.svx', '.md']

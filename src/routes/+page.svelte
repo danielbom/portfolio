@@ -9,8 +9,8 @@
 </script>
 
 <svelte:head>
-	<title>Home</title>
-	<meta name="description" content="Svelte demo app" />
+	<title>Portfolio - Daniel Farina</title>
+	<meta name="description" content="Portfolio - Daniel Augusto Rodrigues Farina" />
 </svelte:head>
 
 <div class="bg-blue-600 min-h-screen scroll-smooth">
