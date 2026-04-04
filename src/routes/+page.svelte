@@ -2,6 +2,7 @@
 	import { page } from '$app/state';
 	import { locales, localizeHref } from '$lib/paraglide/runtime';
 	import SectionAbout from './SectionAbout.svelte';
+	import SectionContactMe from './SectionContactMe.svelte';
 	import SectionHeader from './SectionHeader.svelte';
 	import SectionHero from './SectionHero.svelte';
 	import SectionSkills from './SectionSkills.svelte';
@@ -13,21 +14,23 @@
 	<meta name="description" content="Portfolio - Daniel Augusto Rodrigues Farina" />
 </svelte:head>
 
-<div class="bg-blue-600 min-h-screen scroll-smooth">
-	<div class="bg-indigo-900 text-white h-screen px-4 md:px-10 md:px-30 lg:px-40 xl:px-60 flex flex-col">
+<div class="min-h-screen scroll-smooth bg-blue-600">
+	<div
+		class="flex h-screen flex-col bg-indigo-900 px-4 text-white md:px-10 md:px-30 lg:px-40 xl:px-60"
+	>
 		<SectionHeader />
 		<SectionHero />
 	</div>
-	<div class="bg-white text-black min-h-screen px-4 md:px-10 md:px-30 lg:px-40 xl:px-60 flex flex-col">
+	<div
+		class="flex min-h-screen flex-col bg-white px-4 text-black md:px-10 md:px-30 lg:px-40 xl:px-60"
+	>
 		<SectionAbout />
 		<SectionSkills />
 		<div id="projects">PROJECTS</div>
 		<!-- <SectionProjects /> -->
 	</div>
-	<div class="bg-indigo-900 text-white px-4 md:px-10 md:px-30 lg:px-40 xl:px-60">
-		<div id="contact">CONTACT</div>
-		<!-- <SectionContactMe /> -->
-		CONTACT ME
+	<div class="bg-indigo-900 px-4 text-white md:px-10 md:px-30 lg:px-40 xl:px-60">
+		<SectionContactMe />
 	</div>
 </div>
 

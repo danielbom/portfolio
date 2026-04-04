@@ -20,5 +20,10 @@
     "about_viptech_2": "I worked with <b>NestJS</b>, <b>FastAPI</b>, and <b>React.js</b> in the development of internal applications, as well as using <b>.NET</b> and <b>Angular 2</b> in outsourced projects. In this project, the database used was <b>Oracle</b>, with several triggers configured to ensure data consistency.",
     "about_ipb_1": "In Bragança, Portugal, I was able to consolidate and deepen my knowledge. As a team, I developed a mobile application in <b>Kotlin</b> connected to a remote server (API) as a project for the <b>Mobile Development</b> course.",
     "about_ipb_2": "In the <b>Software Architecture</b> course, I participated in building a web application aimed at the local community. I also took <b>Business Process Engineering</b> and <b>Software Systems Quality</b>, where I learned about business process management (BPM) and practices for error analysis and identification.",
-    "skills_title": "Skills"
+    "skills_title": "Skills",
+    "contacts_title": "Contact me",
+    "social_medias_title": "My social medias",
+    "social_medias_resume_url": "https://github.com/danielbom/resume-generator/blob/main/data/resume-en.pdf",
+    "social_medias_download_resume": "Download my resume",
+    "social_medias_access_repository": "Access this page's repository on GitHub"
 }
