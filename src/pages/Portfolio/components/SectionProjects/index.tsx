@@ -16,7 +16,7 @@ import safeEatImage from '../../../../assets/safe-eat.png'
 export default function SectionProjects() {
   const { t } = useTranslation()
   return (
-    <Section className="py-5 md:py-10" id="projects">
+    <Section id="projects">
       <Section.Title title={t('projects.title')} />
       <Section.Content className="flex flex-wrap justify-evenly gap-6">
         <Project

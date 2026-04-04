@@ -1,9 +1,10 @@
-name: Deploy static content to Pages
+name: Deploy SPA React Vite to Github Pages
 
 on:
   # Runs on pushes targeting the default branch
   push:
-    branches: ['main']
+    branches: 
+      - main
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -48,6 +49,8 @@ jobs:
 
       - name: Build
         run: pnpm run build
+        env:
+          NODE_ENV: production
 
       - name: Setup Pages
         uses: actions/configure-pages@v5

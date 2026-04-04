@@ -8,7 +8,7 @@ import SocialMidias from './SocialMidias'
 export default function SectionContactMe() {
   const {t} = useTranslation()
   return (
-    <Section className="py-5 md:py-10" id="contact">
+    <Section id="contact">
       <Section.Title title={t("contacts.title")} />
       <Section.Content className="flex flex-col lg:flex-row">
         {/* <ContactMeForm /> */}
