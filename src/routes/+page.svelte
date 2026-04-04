@@ -1,4 +1,9 @@
 <script lang="ts">
+	import { page } from '$app/state';
+	import { locales, localizeHref } from '$lib/paraglide/runtime';
+	import SectionHeader from './SectionHeader.svelte';
+	import SectionHero from './SectionHero.svelte';
+	import './layout.css';
 </script>
 
 <svelte:head>
@@ -6,8 +11,28 @@
 	<meta name="description" content="Svelte demo app" />
 </svelte:head>
 
-<section>
-</section>
+<div class="bg-blue-600 min-h-screen scroll-smooth">
+	<div class="bg-indigo-900 text-white h-screen px-4 md:px-10 md:px-30 lg:px-40 xl:px-60 flex flex-col">
+		<SectionHeader />
+		<SectionHero />
+	</div>
+	<div class="bg-white text-black min-h-screen px-4 md:px-10 md:px-30 lg:px-40 xl:px-60 flex flex-col">
+		<div id="about">ABOUT</div>
+		<div id="skills">SKILLS</div>
+		<div id="projects">PROJECTS</div>
+		<!-- <SectionAbout /> -->
+		<!-- <SectionSkills /> -->
+		<!-- <SectionProjects /> -->
+	</div>
+	<div class="bg-indigo-900 text-white px-4 md:px-10 md:px-30 lg:px-40 xl:px-60">
+		<div id="contact">CONTACT</div>
+		<!-- <SectionContactMe /> -->
+		CONTACT ME
+	</div>
+</div>
 
-<style>
-</style>
+<div style="display:none">
+	{#each locales as locale}
+		<a href={localizeHref(page.url.pathname, { locale })}>{locale}</a>
+	{/each}
+</div>
