@@ -3,7 +3,7 @@
 	import { locales, localizeHref } from '$lib/paraglide/runtime';
 	import SectionAbout from './SectionAbout.svelte';
 	import SectionContactMe from './SectionContactMe.svelte';
-	import SectionHeader from './SectionHeader.svelte';
+	import SectionHeader from '../components/SectionHeader.svelte';
 	import SectionHero from './SectionHero.svelte';
 	import SectionSkills from './SectionSkills.svelte';
 	import './layout.css';

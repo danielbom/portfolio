@@ -2,12 +2,12 @@
 	import { onMount } from 'svelte';
 	import { m } from '$lib/paraglide/messages';
 
-	import Section from './Section.svelte';
-	import SectionTitle from './SectionTitle.svelte';
+	import Section from '../components/Section.svelte';
+	import SectionTitle from '../components/SectionTitle.svelte';
 
-	import AboutItem from './AboutItem.svelte';
-	import AboutImage from './AboutImage.svelte';
-	import AboutText from './AboutText.svelte';
+	import AboutItem from '../components/AboutItem.svelte';
+	import AboutImage from '../components/AboutImage.svelte';
+	import AboutText from '../components/AboutText.svelte';
 
 	import utfprImage from '$lib/images/utfpr-nova-2022jpg.jpg';
 	import atlaEnsinoImage from '$lib/images/atla.jpg';
@@ -36,7 +36,7 @@
 	onMount(() => {
 		// recalculated on client
 		age = computeAge(new Date());
-        console.log({ age })
+		console.log({ age });
 	});
 </script>
 

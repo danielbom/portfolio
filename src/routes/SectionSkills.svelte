@@ -3,9 +3,9 @@
 	// https://techicons.dev/icons/fastapi
 	import { m } from '$lib/paraglide/messages';
 
-	import Skill from './Skill.svelte';
-	import Section from './Section.svelte';
-	import SectionTitle from './SectionTitle.svelte';
+	import Skill from '../components/Skill.svelte';
+	import Section from '../components/Section.svelte';
+	import SectionTitle from '../components/SectionTitle.svelte';
 
 	// frontend tech
 	import cssSvg from '$lib/images/skills/css.svg';

@@ -1,8 +1,9 @@
 <script>
 	import { m } from '$lib/paraglide/messages';
 
-	import Section from './Section.svelte';
-	import SectionTitle from './SectionTitle.svelte';
+	import Section from '../components/Section.svelte';
+	import SectionTitle from '../components/SectionTitle.svelte';
+
 	import SocialMidias from './SocialMidias.svelte';
 </script>
 

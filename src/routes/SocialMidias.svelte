@@ -1,8 +1,8 @@
 <script>
 	import { m } from "$lib/paraglide/messages";
-	import IconFacebook from "./IconFacebook.svelte";
-	import IconGithub from "./IconGithub.svelte";
-	import IconLinkedin from "./IconLinkedin.svelte";
+	import IconFacebook from "../components/IconFacebook.svelte";
+	import IconGithub from "../components/IconGithub.svelte";
+	import IconLinkedin from "../components/IconLinkedin.svelte";
 </script>
 
 <div class="flex flex-1 flex-col items-center justify-center gap-5 py-8">
