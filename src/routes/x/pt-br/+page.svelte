@@ -51,6 +51,7 @@
 	<div class="bg-indigo-900 px-4 text-white md:px-10 md:px-30 lg:px-40 xl:px-60">
 		<SectionContactMe
 			title="Entre em Contato"
+			made_with="Feito com"
 			social_medias_title="Minhas redes sociais"
 			social_medias_resume_url="https://github.com/danielbom/resume-generator/blob/main/data/resume-pt.pdf"
 			social_medias_download_resume="Baixe meu currículo"

@@ -11,7 +11,8 @@
 		social_medias_title,
 		social_medias_access_repository,
 		social_medias_download_resume,
-		social_medias_resume_url
+		social_medias_resume_url,
+		made_with,
 	} = $props();
 </script>
 
@@ -49,4 +50,8 @@
 			</a>
 		</div>
 	</div>
+	<p class="text-right">
+		{made_with}
+		<a href="https://svelte.dev/" target="_blank" rel="noopener noreferrer"> Svelte </a>
+	</p>
 </Section>

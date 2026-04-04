@@ -51,6 +51,7 @@
 	<div class="bg-indigo-900 px-4 text-white md:px-10 md:px-30 lg:px-40 xl:px-60">
 		<SectionContactMe
 			title="Contact me"
+			made_with="Made with"
 			social_medias_title="My social medias"
 			social_medias_access_repository="Access this page's repository on GitHub"
 			social_medias_download_resume="Download my resume"
