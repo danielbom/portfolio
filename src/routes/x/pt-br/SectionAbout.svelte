@@ -13,21 +13,7 @@
 	import viptechImage from '$lib/images/viptech.png';
 	import ipbImage from '$lib/images/ipb_estig_ap_1.jpg';
 
-	const birthDate = new Date(1998, 11, 7);
-
-	function computeAge(date: Date) {
-		const now = date;
-		let age = now.getFullYear() - birthDate.getFullYear();
-
-		if (
-			now.getMonth() < birthDate.getMonth() ||
-			(now.getMonth() === birthDate.getMonth() && now.getDate() < birthDate.getDate())
-		) {
-			age--;
-		}
-
-		return `${age} anos`;
-	}
+	import computeAge from '$lib/computeAge';
 
 	// Build-time fallback
 	let age = computeAge(new Date());
