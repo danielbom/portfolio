@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { base } from '$app/paths';
 	import { goto } from '$app/navigation';
 
 	let s = $state({ isOpen: false });
@@ -8,7 +9,7 @@
 	}
 
 	function changeLanguage(lang: string) {
-		goto('/x/' + lang);
+		goto(`${base}/x/${lang}`);
 	}
 </script>
 
