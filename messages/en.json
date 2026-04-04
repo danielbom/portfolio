@@ -2,6 +2,7 @@
 	"$schema": "https://inlang.com/schema/inlang-message-format",
 	"hello_world": "Hello, {name} from en!",
 	"header_about": "About",
+    "header_skills": "Skills",
 	"header_projects": "Projects",
 	"header_contacts": "Contacts",
 	"hero_hello": "Hello, my name is Daniel Farina, and I am a programmer!",
@@ -18,5 +19,6 @@
     "about_viptech_1": "Before traveling to Portugal, I was hired by <b>Viptech</b>, also in Campo Mourão, where I was exposed to new technologies, such as automated deployment with <b>Azure DevOps Actions</b> and microservices management using <b>Kubernetes</b>. I had my first professional experience with the relational database <b>MySQL</b>, and for communication between microservices, we used the in-memory database <b>Redis</b>.",
     "about_viptech_2": "I worked with <b>NestJS</b>, <b>FastAPI</b>, and <b>React.js</b> in the development of internal applications, as well as using <b>.NET</b> and <b>Angular 2</b> in outsourced projects. In this project, the database used was <b>Oracle</b>, with several triggers configured to ensure data consistency.",
     "about_ipb_1": "In Bragança, Portugal, I was able to consolidate and deepen my knowledge. As a team, I developed a mobile application in <b>Kotlin</b> connected to a remote server (API) as a project for the <b>Mobile Development</b> course.",
-    "about_ipb_2": "In the <b>Software Architecture</b> course, I participated in building a web application aimed at the local community. I also took <b>Business Process Engineering</b> and <b>Software Systems Quality</b>, where I learned about business process management (BPM) and practices for error analysis and identification."
+    "about_ipb_2": "In the <b>Software Architecture</b> course, I participated in building a web application aimed at the local community. I also took <b>Business Process Engineering</b> and <b>Software Systems Quality</b>, where I learned about business process management (BPM) and practices for error analysis and identification.",
+    "skills_title": "Skills"
 }

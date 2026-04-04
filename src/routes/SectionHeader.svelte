@@ -13,6 +13,11 @@
             </a>
         </li>
         <li class="hover:text-blue-400 transition transition-1s cursor-pointer">
+            <a href="#skills">
+                {m.header_skills()}
+            </a>
+        </li>
+        <li class="hover:text-blue-400 transition transition-1s cursor-pointer">
             <a href="#projects">
                 {m.header_projects()}
             </a>
