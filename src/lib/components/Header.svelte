@@ -1,5 +1,5 @@
 <script lang="ts">
-	// import { resolve } from '$app/paths';
+	import { resolve } from '$app/paths';
 
 	import I18nDropdown from './I18nDropdown.svelte';
 	import IconMenu from './IconMenu.svelte';
@@ -43,9 +43,11 @@
 				{header_contacts}
 			</a>
 		</li>
-		<!-- <li class="text-blue-400 px-3 border border-blue-400 hover:bg-blue-400 hover:text-white transition transition-1s">
-            <a href="#">Blog</a>
-        </li> -->
+		<li
+			class="transition-1s border border-blue-400 px-3 text-blue-400 transition hover:bg-blue-400 hover:text-white"
+		>
+			<a href={resolve('/blog')}>Blog</a>
+		</li>
 		<li class="flex items-center">
 			<I18nDropdown />
 		</li>
@@ -80,11 +82,11 @@
 						{header_contacts}
 					</a>
 				</li>
-				<!-- <li
+				<li
 					class="border border-blue-400 px-3 text-blue-400 transition hover:bg-blue-400 hover:text-white"
 				>
-					<a href={resolve('/blog')}>Blog</a>
-				</li> -->
+					<a class="block" href={resolve('/blog')}>Blog</a>
+				</li>
 				<li class="flex items-center justify-center">
 					<I18nDropdown />
 				</li>

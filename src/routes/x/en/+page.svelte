@@ -1,5 +1,5 @@
 <script lang="ts">
-	import './page.css';
+	import '$lib/global.css';
 
 	import Header from '$lib/components/Header.svelte';
 	import LayoutPortfolio from '$lib/components/LayoutPortfolio.svelte';
