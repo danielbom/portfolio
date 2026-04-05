@@ -9,6 +9,7 @@
 	}
 
 	function changeLanguage(lang: string) {
+		console.log({ base, url: `${base}/x/${lang}` });
 		goto(`${base}/x/${lang}`);
 	}
 </script>
