@@ -3,7 +3,7 @@
 	const { hero_hello, hero_description, hero_hire_me } = $props();
 </script>
 
-<section class="flex flex-1 flex-col-reverse gap-5 pb-20 md:flex-row">
+<section class="flex flex-1 flex-col-reverse gap-5 pb-20 sm:flex-row">
 	<div class="flex flex-1 items-center">
 		<div>
 			<h2 class="mb-4 text-2xl font-extrabold">{hero_hello}</h2>
