@@ -114,7 +114,7 @@
 				</p>
 				<p>
 					Na disciplina de <b>Arquitetura de Software</b>, participei da construção de uma aplicação
-					web voltada para a comunidade local. Também cursei 
+					web voltada para a comunidade local. Também cursei
 					<b>Engenharia de Processos de Negócio</b> e <b>Qualidade em Sistemas de Software</b>, onde
 					aprendi sobre gestão de processos de negócios (BPM) e práticas de análise e identificação
 					de erros.

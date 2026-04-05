@@ -20,7 +20,7 @@
 </script>
 
 <LayoutPortfolio>
-	<div slot="top" class="min-h-screen flex flex-col">
+	<div slot="top" class="flex min-h-screen flex-col">
 		<Header
 			header_about="About"
 			header_skills="Skills"

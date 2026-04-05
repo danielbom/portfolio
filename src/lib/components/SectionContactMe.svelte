@@ -12,7 +12,7 @@
 		social_medias_access_repository,
 		social_medias_download_resume,
 		social_medias_resume_url,
-		made_with,
+		made_with
 	} = $props();
 </script>
 

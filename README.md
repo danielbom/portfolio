@@ -43,4 +43,4 @@ You can preview the production build with `npm run preview`.
 
 ## References
 
-- [mdsvex   ](https://mdsvex.pngwn.io/docs)
+- [mdsvex](https://mdsvex.pngwn.io/docs)

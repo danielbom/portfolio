@@ -1,6 +1,8 @@
 <script lang="ts">
-	import { base } from '$app/paths';
+	import { resolve } from '$app/paths';
 	import { goto } from '$app/navigation';
+
+	import IconGlobe from './IconGlobe.svelte';
 
 	let s = $state({ isOpen: false });
 
@@ -8,36 +10,24 @@
 		s.isOpen = !s.isOpen;
 	}
 
-	function changeLanguage(lang: string) {
-		goto(`${base}/x/${lang}`);
+	function changeLanguage(lang: 'en' | 'pt-br') {
+		goto(resolve(`/x/${lang}`));
 	}
 </script>
 
-<div class="relative" tabindex="-1">
-	<button class="cursor-pointer" type="button" aria-label="Change Language" onclick={toggle}>
-		<!-- <Globe /> -->
-		<!-- https://lucide.dev/icons/globe -->
-		<svg
-			xmlns="http://www.w3.org/2000/svg"
-			width="24"
-			height="24"
-			viewBox="0 0 24 24"
-			fill="none"
-			stroke="currentColor"
-			stroke-width="2"
-			stroke-linecap="round"
-			stroke-linejoin="round"
-			class="lucide lucide-globe-icon lucide-globe"
-		>
-			<circle cx="12" cy="12" r="10" />
-			<path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20" />
-			<path d="M2 12h20" />
-		</svg>
+<div class="relative w-full" tabindex="-1">
+	<button
+		class="align-center flex w-full cursor-pointer justify-center"
+		type="button"
+		aria-label="Change Language"
+		onclick={toggle}
+	>
+		<IconGlobe />
 	</button>
 
 	{#if s.isOpen}
 		<ul
-			class="absolute right-0 flex flex-col gap-3 rounded-md border border-gray-100 bg-white p-2 text-center text-lg text-black shadow-md"
+			class="absolute right-[50%] flex flex-col gap-3 rounded-md border border-gray-100 bg-white p-2 text-center text-lg text-black shadow-md"
 		>
 			<li>
 				<button
