@@ -16,12 +16,12 @@
 	import ProjectSurfAPI from './projects/ProjectSurfAPI.svelte';
 	import ProjectSaveLinks from './projects/ProjectSaveLinks.svelte';
 	import ProjectAdventOfCode from './projects/ProjectAdventOfCode.svelte';
+
+	const classes = 'flex flex-col px-4 md:px-10 md:px-30 lg:px-40 xl:px-50';
 </script>
 
-<div class="min-h-screen scroll-smooth bg-blue-600">
-	<div
-		class="flex h-screen flex-col bg-indigo-900 px-4 text-white md:px-10 md:px-30 lg:px-40 xl:px-60"
-	>
+<div class="scroll-smooth bg-blue-600">
+	<div class="h-screen bg-indigo-900 text-white {classes}">
 		<Header
 			header_about="About"
 			header_skills="Skills"
@@ -34,9 +34,7 @@
 			hero_hire_me="Hire me"
 		/>
 	</div>
-	<div
-		class="flex min-h-screen flex-col bg-white px-4 text-black md:px-10 md:px-30 lg:px-40 xl:px-50"
-	>
+	<div class="min-h-screen bg-white text-black {classes}">
 		<SectionAbout />
 		<SectionSkills title="Skills" />
 		<SectionProjects title="Projects">
@@ -48,7 +46,7 @@
 			<ProjectAdventOfCode />
 		</SectionProjects>
 	</div>
-	<div class="bg-indigo-900 px-4 text-white md:px-10 md:px-30 lg:px-40 xl:px-60">
+	<div class="bg-indigo-900 text-white {classes}">
 		<SectionContactMe
 			title="Contact me"
 			made_with="Made with"
