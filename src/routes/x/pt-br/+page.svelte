@@ -17,6 +17,7 @@
 	import ProjectSurfAPI from './projects/ProjectSurfAPI.svelte';
 	import ProjectSaveLinks from './projects/ProjectSaveLinks.svelte';
 	import ProjectAdventOfCode from './projects/ProjectAdventOfCode.svelte';
+	import ProjectClinicAppointments from './projects/ProjectClinicAppointments.svelte';
 </script>
 
 <LayoutPortfolio>
@@ -39,6 +40,7 @@
 		<SectionProjects title="Projetos">
 			<ProjectResumeGenerator />
 			<ProjectSafeEat />
+			<ProjectClinicAppointments />
 			<ProjectRocketseat />
 			<ProjectSurfAPI />
 			<ProjectSaveLinks />
