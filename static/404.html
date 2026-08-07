@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="pt-BR">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<script>
+		(function () {
+			const location = window.location
+			const base = '/portfolio'
+
+			const params = new URLSearchParams(location.search)
+			if (params.has('redirect')) return
+
+			const route = location.pathname.startsWith(base)
+				? location.pathname.slice(base.length)
+				: location.pathname
+
+			params.set("redirect", route + location.search + location.hash)
+			const url = new URL(`${location.origin}/${base}`)
+			url.search = params.toString()
+			location.replace(url)
+		})()
+	</script>
+</head>
+
+<body>
+	Redirecting...
+</body>
+
+</html>

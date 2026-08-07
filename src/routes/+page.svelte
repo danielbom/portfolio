@@ -4,6 +4,13 @@
 	import { onMount } from 'svelte';
 
 	onMount(() => {
-		goto(`${base}/x/en`);
+		const params = new URLSearchParams(window.location.search);
+		const redirect = params.get('redirect');
+
+		if (redirect) {
+			goto(decodeURIComponent(redirect), { replaceState: true });
+		} else {
+			goto(`${base}/x/en`, { replaceState: true });
+		}
 	});
 </script>
