@@ -9,6 +9,7 @@
 
 		if (redirect) {
 			goto(decodeURIComponent(redirect), { replaceState: true });
+			setTimeout(() => sessionStorage.removeItem('redirecting'), 1000);
 		} else {
 			goto(`${base}/x/en`, { replaceState: true });
 		}

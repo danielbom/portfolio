@@ -1,32 +1,39 @@
 <!doctype html>
 <html lang="pt-BR">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
 
-<head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+		<script>
+			(function () {
+				const location = window.location;
+				const url = location.pathname + location.search + location.hash;
+				const base = '/portfolio';
+
+				if (sessionStorage.getItem('redirecting') == '1') {
+					return;
+				}
+				sessionStorage.setItem('redirecting', '1');
+
+
+				const params = new URLSearchParams(location.search);
+				if (params.has('redirect')) return;
+				params.set('redirect', url);
+
+				location.replace(new URL(`${location.origin}${base}?${params}`));
+			})();
+		</script>
+	</head>
+
+	<body>
+		Redirecting...
+	</body>
 
 	<script>
-		(function () {
-			const location = window.location
-			const base = '/portfolio'
-
-			const params = new URLSearchParams(location.search)
-			if (params.has('redirect')) return
-
-			const route = location.pathname.startsWith(base)
-				? location.pathname.slice(base.length)
-				: location.pathname
-
-			params.set("redirect", route + location.search + location.hash)
-			const url = new URL(`${location.origin}/${base}`)
-			url.search = params.toString()
-			location.replace(url)
-		})()
+		setTimeout(() => {
+			const url = location.origin + location.pathname + location.search + location.hash;
+			document.body.innerHTML = `<h2>Page not found</h2><br><p>${url}</p>`;
+			sessionStorage.removeItem('redirecting');
+		}, 1000);
 	</script>
-</head>
-
-<body>
-	Redirecting...
-</body>
-
 </html>
